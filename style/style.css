@@ -1,15 +1,48 @@
 @font-face {
-    font-family:lalezar ;
+    font-family: lalezar;
     src: url(Fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf);
 }
 
-*{
+* {
     font-family: Vazirmatn;
+}
+
+body {
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    padding-top: 14vh;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #ffffff, #86a6f4);    
+
+
 }
 
-nav{
-    background-color: #0984e3;
+
+
+
+.left-section {
+    padding-top: 11vh;
+}
+
+.left-section h1 {
+    font-size: 4rem;
+}
+
+
+nav {
+    background-color: #192a56;
+    font-size: 1.1rem;
+}
+
+img {
+    border-radius: 2em;
+    background-size:cover;
+    background-position: center;
+    transition: 0.6s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
