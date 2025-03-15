@@ -1,0 +1,13 @@
+@font-face {
+    font-family:lalezar ;
+    src: url(Fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Vazirmatn;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
